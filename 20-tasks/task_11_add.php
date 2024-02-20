@@ -28,3 +28,4 @@ $stmt->execute([
 ]);
 
 header("Location: /task_11.php");
+exit();

@@ -30,5 +30,6 @@ $stmt->execute([
 ]);
 
 header("Location: /task_18.php");
+exit();
 
 

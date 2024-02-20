@@ -27,3 +27,4 @@ for($i=0;$i < count($images['name']); $i++ ){
 }
 
 header("Location: /task_19.php");
+exit();

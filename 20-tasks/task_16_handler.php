@@ -9,5 +9,6 @@ $password = '';
 unset($_SESSION['user']);
 
 header("Location: /task_15.php");
+exit();
 
 

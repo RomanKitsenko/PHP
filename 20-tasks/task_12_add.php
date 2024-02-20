@@ -31,3 +31,4 @@ if (!empty($email_is_set)) {
 }
 
 header("Location: /task_12.php");
+exit();

@@ -29,5 +29,6 @@ if ($pass_is_correct){
 } else {
     $_SESSION['wrong'] = "Неверный логин или пароль";
     header("Location: /task_15.php");
+    exit();
 }
 

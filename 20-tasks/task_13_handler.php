@@ -19,3 +19,4 @@ $_SESSION['message'] = $text;
 
 
 header("Location: /task_13.php");
+exit();
