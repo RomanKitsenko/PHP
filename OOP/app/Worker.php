@@ -8,6 +8,10 @@ class Worker
     public int $age;
     public array $hours;
 
+    protected string $position;
+
+    private int $experience;
+
     public function __construct($name, $age, $hours){
         $this->name = $name;
         $this->age = $age;
