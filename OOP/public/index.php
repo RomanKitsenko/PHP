@@ -9,4 +9,5 @@ $developer = new \App\Developer('Mike', 44, [12,43,2,4,5,6]);
 $worker->work();
 $developer->work();
 
-var_dump($developer);
+$developer->setPosition('Junior+');
+echo $developer->getPosition();

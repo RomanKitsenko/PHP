@@ -8,7 +8,7 @@ class Worker
     public int $age;
     public array $hours;
 
-    protected string $position;
+    private string $position;
 
     private int $experience;
 
@@ -21,6 +21,19 @@ class Worker
     public function work()
     {
          echo 'I\'m Working ';
+    }
+
+    public function getPosition(): string {
+        return $this->position;
+    }
+    public function setPosition($position){
+        $this->position = $position;
+    }
+    public function getExperience(): int{
+        return $this->experience;
+    }
+    public function setExperience($experience){
+        $this->experience = $experience;
     }
 
 }
