@@ -17,7 +17,9 @@ abstract class Worker implements WorkerInterface
         $this->age = $age;
         $this->hours = $hours;
     }
-
+    public function getName(): string {
+        return $this->name;
+    }
     public function getPosition(): string {
         return $this->position;
     }
