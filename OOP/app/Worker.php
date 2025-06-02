@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Worker
+abstract class Worker
 {
     public string $name;
     public int $age;
@@ -18,10 +18,7 @@ class Worker
         $this->hours = $hours;
     }
 
-    public function work()
-    {
-         echo 'I\'m Working ';
-    }
+    abstract public function work();
 
     public function getPosition(): string {
         return $this->position;
