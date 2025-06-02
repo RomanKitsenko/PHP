@@ -2,7 +2,7 @@
 
 namespace App;
 
-abstract class Worker
+abstract class Worker implements WorkerInterface
 {
     public string $name;
     public int $age;
@@ -17,8 +17,6 @@ abstract class Worker
         $this->age = $age;
         $this->hours = $hours;
     }
-
-    abstract public function work();
 
     public function getPosition(): string {
         return $this->position;
