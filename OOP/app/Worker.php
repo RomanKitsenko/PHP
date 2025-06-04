@@ -32,5 +32,8 @@ abstract class Worker implements WorkerInterface
     public function setExperience($experience){
         $this->experience = $experience;
     }
+    public function getHours(){
+        return $this->hours;
+    }
 
 }
